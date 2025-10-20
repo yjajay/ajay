@@ -19,28 +19,8 @@
 void main()
 {
 	int i=0,r=0;
-	char s[]="helao";
+	char s[]="helo";
 	char t[]="hell";
 	int l=strlen(s);
 	int l1=strlen(t);
-	for(i=0;s[i]!=l&&t[i]!=l1;i++)
-	{
-		if (s[i]!=t[i])
-		{
-			r=s[i]-t[i];
-		}
-		
-	}
-	if(r<0)
-	{
-		printf("-1");
-	}
-	else if(r=0)
-	{
-		printf("0");
-	}
-	else if(r>0)
-	{
-		printf("1");
-	}
-}
+	
