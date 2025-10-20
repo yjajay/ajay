@@ -9,12 +9,6 @@
 //	
 //	for (i=0;i<l/2;i++)
 //	{
-//		d=s[i];
-//		s[i]=s[l-1-i];aaserZ	zazzA
-//		s[l-1-i]=d;
-//	}
-//	printf("%s",s);
-// 
 
 void main()
 {
